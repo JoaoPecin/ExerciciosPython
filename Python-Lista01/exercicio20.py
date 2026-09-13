@@ -1,0 +1,15 @@
+nome=input('Qual o nome do Aluno? ')
+idade=int(input('Qual a sua idade? '))
+prova1=float(input('Quanto ele tirou na primeira prova? '))
+prova2=float(input('Quanto ele tirou na segunda prova? '))
+prova3=float(input('Quanto ele tirou na terceira prova? '))
+prova4=float(input('Quanto ele tirou na quarta prova? '))
+soma= prova1 + prova2 + prova3 + prova4
+nota_final= soma / 4
+print('Nome:', nome)
+print('Idade:', idade,'anos')
+print('Nota da primeira prova', prova1)
+print('Nota da segunda prova', prova2)
+print('Nota da terceira prova', prova3)
+print('Nota da quarta prova', prova4)
+print('Sua nota final é', nota_final)
